@@ -1,0 +1,10 @@
+#include<stdio.h>
+double add(double num)
+{
+    return num*num;
+}
+int main()
+{
+    printf("%f",add(150));
+    return 0;
+}
